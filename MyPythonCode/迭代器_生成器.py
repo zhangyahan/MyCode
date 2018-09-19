@@ -26,3 +26,4 @@ while True:
         break
 
 print("hello")
+print("hello")

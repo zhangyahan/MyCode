@@ -11,3 +11,4 @@ a = 10
 b = 20
 c = 15
 print("做") if a > b else (print("又有") if c >b else print("aa"))
+print("hello")

@@ -2,7 +2,7 @@ import os
 import sys
 import time
 
-
+# 多进程
 def inner():
     time.sleep(3)
     print("我是耳机紫禁城")

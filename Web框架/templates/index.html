@@ -1,37 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <style type="text/css">
-        #container{
-            width: 990px;
-            margin: 0 auto;
-            background-color: #e3d2d2;
-            text-align: center;
-        }
-        #nav{
-            background-color: red;
-        }
-        #main{
-            background-color: orange;
-        }
-        #after{
-            background-color: yellow;
-        }
-    </style>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
 <body>
-    <div id="container">
-        <div id="nav">
-            <h1>导航部分</h1>
-        </div>
-        <div id="main">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem enim eos, ex exercitationem explicabo laboriosam modi odit officiis perferendis quas quos sunt totam, veritatis. Ab delectus inventore labore placeat sequi!
-        </div>
-        <div id="after">
-            <p>尾部</p>
-        </div>
-    </div>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <p>
+            <input type="file" name="ufile">
+        </p>
+        <p>
+            <input type="submit" value="提交">
+        </p>
+    </form>
 </body>
 </html>

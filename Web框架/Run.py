@@ -1,4 +1,6 @@
 from flask import Flask, request, make_response, render_template
+from time import *
+import re
 
 app = Flask(__name__)
 
@@ -10,7 +12,8 @@ def index():
         return res
     else:
         f = request.files["ufile"]
-        filename = f.filename
+        res = re.findall("\d+", str(localtime()))
+        filename = res + f.filename
         f.save("static/imgs/" + filename)
         return "提交成功"
 

@@ -13,7 +13,7 @@ def index():
     else:
         f = request.files["ufile"]
         res = re.findall("\d+", str(localtime()))
-        filename = res + f.filename
+        filename = "".join(res[0:-3]) + f.filename
         f.save("static/imgs/" + filename)
         return "提交成功"
 

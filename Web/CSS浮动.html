@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*div{*/
+            /*overflow: hidden;*/
+        /*}*/
+        /*img{*/
+            /*float: left;*/
+        /*}*/
+        /*.c1{*/
+            /*width: 200px;*/
+            /*height: 200px;*/
+            /*background-color: red;*/
+            /*opacity: 0.5;*/
+        /*}*/
+        /*.c2{*/
+            /*width: 100px;*/
+            /*height: 100px;*/
+            /*background-color: green;*/
+            /*opacity: 0.5;*/
+            /*cursor: pointer;*/
+        /*}*/
+        /*div{*/
+            /*width: 0;*/
+            /*height: 0;*/
+            /*border-top: 10px solid transparent;*/
+            /*border-right: 10px solid black;*/
+            /*border-bottom: 10px solid transparent;*/
+            /*border-left: 10px solid transparent;*/
+
+        /*}*/
+        /*div:hover{*/
+            /*width: 0;*/
+            /*height: 0;*/
+            /*border-top: 10px solid black;*/
+            /*border-right: 10px solid transparent;*/
+            /*border-bottom: 10px solid transparent;*/
+            /*border-left: 10px solid transparent;*/
+            /*transform: translate(100px,0px);*/
+        /*}*/
+        .c1,.c2{
+            transition: 5s;
+        }
+        div:hover .c1{
+            transform: rotateY(90deg);
+        }
+        .c2{
+            transform: rotateY(90deg);
+        }
+        div:hover .c2{
+            transform: rotateY(180deg);
+        }
+        .c2{
+            margin-left: -100px;
+        }
+    </style>
+</head>
+<body>
+    <!--<div>-->
+        <!--<img src="./two_ha.jpg" alt="">-->
+        <!--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet dolorem eveniet expedita facilis modi nam nobis sequi soluta vel! Alias aliquam doloremque earum iure molestiae pariatur quae quibusdam reiciendis?-->
+    <!--</div>-->
+    <!--<div class="c1">-->
+        <!--<div class="c2"></div>-->
+    <!--</div>-->
+    <div>
+        <img src="two_ha.jpg" alt="" class="c1">
+        <img src="two_ha.jpg" alt="" class="c2">
+    </div>
+
+</body>
+</html>

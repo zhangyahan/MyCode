@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, redirect
 from flask_sqlalchemy import SQLAlchemy
 
 import pymysql
@@ -31,9 +31,21 @@ class student(db.Model):
 # 将实例映射到数据库
 db.create_all()
 
-# 创建路由
-@app.route("/",methods=["POST","GET"])
+
+@app.route("/")
 def index():
+    return render_template("index.html")
+
+
+@app.route("/show")
+def show():
+    stud = db.session.query(student).all()
+    return render_template("show.html",params=locals())
+
+
+# 创建路由
+@app.route("/insert",methods=["POST","GET"])
+def index_info():
     if request.method == "GET":
         return render_template("insert_student_index.html")
     else:
@@ -43,7 +55,7 @@ def index():
 
         student_info = student(name,int(age),float(score))
         db.session.add(student_info)
-        return "提交成功"
+        return redirect("/")
 
 
 if __name__ == '__main__':

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul{
+            list-style: none;
+
+            width: 200px;
+            height: 150px;
+            margin: 70px auto;
+            /* 父盒子开启3d */
+            transform-style: preserve-3d;
+            /* 引入动画效果 */
+            animation: rotate 9s linear infinite;
+
+        }
+
+        @keyframes rotate {
+            /* 旋转沿x轴旋转-10度,再绕y轴旋转 */
+            0%{
+                transform: rotateX(-10deg) rotateY(0deg)
+            }
+            100%{
+               transform: rotateX(-10deg)  rotateY(360deg)
+            }
+
+        }
+
+        ul li img{
+            /* 图片和父盒子一样大 */
+            width: 100%;
+            height: 100%
+        }
+        ul li{
+            /* 绝对定位,先让li标签重叠 */
+            position: absolute;
+        }
+        ul li:nth-child(1){
+            /* 先绕y轴旋转60度,再沿z轴平移200px,就会形成立体感 */
+            transform: rotateY(60deg) translateZ(200px)
+        }
+        ul li:nth-child(2){
+            transform: rotateY(120deg) translateZ(200px)
+        }
+        ul li:nth-child(3){
+            transform: rotateY(180deg) translateZ(200px)
+        }
+        ul li:nth-child(4){
+            transform: rotateY(240deg) translateZ(200px)
+        }
+        ul li:nth-child(5){
+            transform: rotateY(300deg) translateZ(200px)
+        }
+        ul li:nth-child(6){
+            transform: rotateY(360deg) translateZ(200px)
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><img src="./two_ha.jpg" alt=""></li>
+        <li><img src="./two_ha.jpg" alt=""></li>
+        <li><img src="./two_ha.jpg" alt=""></li>
+        <li><img src="./two_ha.jpg" alt=""></li>
+        <li><img src="./two_ha.jpg" alt=""></li>
+        <li><img src="./two_ha.jpg" alt=""></li>
+    </ul>
+</body>
+</html>

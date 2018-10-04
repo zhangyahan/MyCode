@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            border: 0;
+            text-align: center;
+            font-size: 20px;
+        }
+        div{
+            margin: 0 auto;
+            width: 660px;
+            border: 1px solid #a3a3a3;
+        }
+        .username,.password{
+            font-size: 20px;
+            width: 188px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="" method="post" id="frm">
+            <p>
+                账号 : &nbsp;&nbsp;&nbsp;<input type="text" name="username" class="username">
+            </p>
+            <p>
+                密码 : &nbsp;&nbsp;&nbsp;<input type="password" name="password" class="password">
+            </p>
+            <p>
+                记住密码<input type="checkbox" name="ispwd">
+                <a href="">忘记密码?</a>
+            </p>
+            <p>
+                <input type="submit" value="登录">
+                <a href="">注册</a>
+            </p>
+        </form>
+        <script>
+            window.onload = function () {
+                var frm = document.getElementById("frm");
+                frm.onsubmit = function () {
+                    var sub = document.getElementsByName("username")[0];
+                    if (sub.value == "") {
+                        alert("用户名不能为空");
+                        return false;
+                    } else {
+                        return true;
+                    }
+                }
+            }
+        </script>
+    </div>
+</body>
+</html>

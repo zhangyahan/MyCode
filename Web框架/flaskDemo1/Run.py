@@ -23,11 +23,18 @@ def login():
     if request.method == "GET":
         return render_template("login.html")
     else:
+<<<<<<< Updated upstream
         name = request.form["username"]
         password = request.form["password"]
         ispwd = request.form["ispwd"]
         print(name,password,ispwd)
         return "登录成功"
+=======
+        name = request.form["uname"]
+        password = request.form["password"]
+        res = make_response(name+password)
+        return res
+>>>>>>> Stashed changes
 
 
 if __name__ == '__main__':

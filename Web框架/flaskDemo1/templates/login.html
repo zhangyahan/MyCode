@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #container {
+            margin: 0 auto;
+            width: 500px;
+            height: 200px;
+            text-align: center;
+            border: 1px solid #bfbfbf;
+            position: relative;
+        }
+        p{
+            margin-top: 30px;
+        }
+        .sub{
+            box-sizing: padding-box;
+            border: 0;
+            width: 50px;
+            height: 30px;
+            background-color: #0066cc;
+            color: white;
+            position: absolute;
+            left: 210px;
+        }
+        a{
+            font-size: 12px;
+            box-sizing: border-box;
+            position: absolute;
+            left: 280px;
+            border: 1px solid white;
+            text-decoration: none;
+            width: 50px;
+            height: 30px;
+            background-color: #0066cc;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <form action="/login" method="post">
+            <p>
+            账号 ： <input type="text" name="uname">
+            </p>
+            <p>
+                密码 ： <input type="text" name="password">
+            </p>
+            <p>
+                <input type="submit" class="sub">
+                <a href="">注册</a>
+            </p>
+        </form>
+
+    </div>
+</body>
+</html>

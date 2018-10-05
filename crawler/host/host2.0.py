@@ -7,6 +7,11 @@ from threading import Thread
 import requests
 
 
+herad = {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
+# 文件路径
+PATH = "./host.csv"
+
 class MyThread(Thread):
     def __init__(self,func,args=()):
         super(MyThread, self).__init__()
@@ -101,10 +106,6 @@ def two_htm_text(two_url):
 
 
 if __name__ == '__main__':
-    herad = {
-        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
-    # 文件路径
-    PATH = "./host.csv"
     state = time.time()
     pool = Pool()
     pool.map(main,[i for i in range(1,101)])

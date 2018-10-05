@@ -1,6 +1,6 @@
 import requests
 import re
-import config
+import host_text_config
 import csv
 from threading import Thread
 
@@ -15,7 +15,7 @@ class getData():
         self.csv_file = open(self.PATH, 'a', newline="", encoding="UTF-8")
         for i in range(1,self.page+1):
             url = self.url + "/zufang/pg" + str(i) + "/#contentList"
-            respon = requests.get(url,params=config.herad)
+            respon = requests.get(url,params=host_text_config.herad)
             if respon.status_code == 200:
                 self.one_url(respon)
             else:
@@ -39,7 +39,7 @@ class getData():
 
     def two_html(self,list):
         for i in list:
-            respon = requests.get(i,params=config.herad)
+            respon = requests.get(i,params=host_text_config.herad)
             if respon.status_code == 200:
                 host_lsit = self.two_data(respon.text,i)
                 self.mycsv(host_lsit)

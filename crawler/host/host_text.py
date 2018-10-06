@@ -58,8 +58,10 @@ class getData():
 
         host_list = []
         host_lists = re.findall(parton1,respon)
+        print("1",host_lists)
         if not host_lists:
             host_lists = re.findall(parton2, respon)
+            print("2",host_lists)
             host_list.append(host_lists[0][1].strip())
             addr = ""
             for i in host_lists[0][2:]:

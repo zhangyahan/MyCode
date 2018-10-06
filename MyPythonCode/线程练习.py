@@ -23,15 +23,19 @@ def inner(num):
 def inner2(num):
     return "I'm {}".format(num)
 
+lst = []
+for i in range(1,10):
+    t = MyThread(inner,args=(i,))
+    lst.append(t)
+    t.start()
 
-t = MyThread(inner,args=("123",))
-t2 = MyThread(inner2,args=("435",))
-t.start()
-t2.start()
-t.join()
-print(t.get_result())
-t2.join()
-print(t2.get_result())
+with open("./num.txt",'a') as f:
+    for i in lst:
+        i.join()
+        f.write(i.get_result())
+
+
+
 
 
 

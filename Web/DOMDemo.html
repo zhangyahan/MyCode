@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    div{
+      width: 200px;
+      height: 200px;
+      background-color: red;
+    }
+    p{
+      width: 100px;
+      height: 100px;
+      margin: 0;
+      background-color: black;
+    }
+    /*p:hover{*/
+      /*width: 200px;*/
+      /*height: 200px;*/
+    /*}*/
+  </style>
+  <script>
+    window.onload = function () {
+        var p = document.getElementsByTagName("p")[0];
+        p.onclick = function () {
+            this.style.backgroundColor = "red"
+        };
+        var input = document.getElementsByTagName("input")[0];
+        input.onkeypress = function (evt) {
+            console.log(evt.key)
+        };
+    }
+  </script>
+</head>
+<body>
+<input type="text">
+  <div>
+    <p></p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="jquery-1.11.3.js"></script>
+  <script>
+     $(function () {
+         var navphoto = $("#banner").children(".c1");
+         var navIndex = $("p");
+
+         var imagesIndex = 0;
+         var timer;
+
+         timer = setInterval(autoplay, 3000);
+         function autoplay() {
+             navphoto[imagesIndex].style.display = "none";
+
+             imagesIndex = ++ imagesIndex === navphoto.length ? 0 : imagesIndex;
+
+             navphoto[imagesIndex].style.display = "block"
+         }
+
+         for (var i = 0; i < navIndex.length; i ++) {
+             navIndex[i].style.background = "transparent";
+         }
+         navIndex[imagesIndex].style.background = "red";
+
+     })
+  </script>
+  <style>
+    #banner {
+      position: relative;
+    }
+    .c1 {
+      position: absolute;
+    }
+    .b1 {
+      position: absolute;
+      left: 50%;
+      top: 300px;
+      width: 18px;
+      height: 18px;
+      border: 3px solid black;
+      border-radius: 50%;
+      z-index: 9999;
+    }
+    .b2 {
+      left: 40%;
+    }
+  </style>
+</head>
+<body>
+  <div id="banner">
+    <p class="b1 b2"></p>
+    <p class="b1"></p>
+    <img src="banner1.jpg" alt="" class="c1">
+    <img src="banner2.jpg" alt="" class="c1">
+
+  </div>
+</body>
+</html>

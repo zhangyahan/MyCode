@@ -7,13 +7,35 @@
 </head>
 <body>
   <div>
+    <table>
+      <tr>
+        <td></td>
+      </tr>
+    </table>
     <p></p>
     <p></p>
+    <span></span>
     <p></p>
     <p></p>
   </div>
   <script>
-    $("p:first").html("你好")
+    $("td").parent().append("<td></td>")
+
+
+    // 匹配p元素中的第一个元素
+    // $("p:first").html("你好");
+    // 匹配p元素中的最后一个元素
+    // $("p:last").html("再见");
+    // 匹配除了p,html,div,script的元素
+    // $(":not(p,html,body,div,script)").html("哈哈")
+    // 匹配p元素的偶数行元素
+    // $("p:odd").html("哈哈")
+    // 匹配p元素的奇数行元素
+    // $("p:even").html("哈哈")
+    // 匹配p元素行数的下标
+    // $("p:eq(1)").html("哈哈")
+
+
   </script>
 </body>
 </html>

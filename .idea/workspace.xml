@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="3fb5017e-389b-470f-a65b-bde043598d4f" name="Default Changelist" comment="今日头条">
       <change afterPath="$PROJECT_DIR$/Web/DOMDemo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/MyCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyCode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="3fb5017e-389b-470f-a65b-bde043598d4f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/MyCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/host/host3.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/host/host3.0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/toDayphoto/todayphoto.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/toDayphoto/todayphoto.py" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +23,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MyCode$todayphoto.coverage" NAME="todayphoto Coverage Results" MODIFIED="1539181371890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawler/toDayphoto" />
     <SUITE FILE_PATH="coverage/MyCode$Run.coverage" NAME="Run Coverage Results" MODIFIED="1537973865530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web框架/flaskDemo2" />
     <SUITE FILE_PATH="coverage/MyCode$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1539257278914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawler" />
     <SUITE FILE_PATH="coverage/MyCode$todayphoto.coverage" NAME="todayphoto Coverage Results" MODIFIED="1539261022818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawler/toDayphoto" />
@@ -67,44 +77,57 @@
     <session id="1107033552">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="py" value="3" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="Python" value="3" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="31" />
+          <entry key="py" value="392" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="31" />
+          <entry key="Python" value="392" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/Web/DOMDemo.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="557">
               <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+=======
+        <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/todayphoto.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-130">
+              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -138,11 +161,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Web框架/flaskDemo2/Run.py" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/crawler/toDayphoto/__init__.py" />
         <option value="$PROJECT_DIR$/crawler/demo1.py" />
         <option value="$PROJECT_DIR$/crawler/toDayphoto/config.py" />
         <option value="$PROJECT_DIR$/crawler/toDayphoto/todayphoto.py" />
         <option value="$PROJECT_DIR$/Web/DOMDemo.html" />
+=======
+        <option value="$PROJECT_DIR$/crawler/toDayphoto/todayphoto.py" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -163,7 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,10 +197,25 @@
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< Updated upstream
+=======
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="toDayphoto" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> Stashed changes
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,6 +267,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,6 +290,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+=======
+>>>>>>> Stashed changes
     <configuration name="todayphoto" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -273,12 +317,18 @@
     <list>
       <item itemvalue="Python.Run" />
       <item itemvalue="Python.todayphoto" />
+<<<<<<< Updated upstream
       <item itemvalue="Python.demo1" />
+=======
+>>>>>>> Stashed changes
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.todayphoto" />
+<<<<<<< Updated upstream
         <item itemvalue="Python.demo1" />
+=======
+>>>>>>> Stashed changes
         <item itemvalue="Python.Run" />
       </list>
     </recent_temporary>
@@ -312,14 +362,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26041666" />
+=======
+    <frame x="-1" y="-11" width="1368" height="735" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14641288" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" weight="0.32419354" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4176" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,6 +489,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
           <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/todayphoto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

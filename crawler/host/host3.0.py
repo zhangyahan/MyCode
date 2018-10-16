@@ -1,5 +1,6 @@
 import csv
 import re
+import time
 from multiprocessing.pool import Pool
 
 # 全局变量
@@ -112,8 +113,10 @@ def get_two_html(inner_url):
 
 
 if __name__ == '__main__':
-
+    state = time.time()
     main()
+    end = time.time()
+    print(end-state)
     # 关闭文件
 
     

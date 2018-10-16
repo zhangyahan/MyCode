@@ -2,7 +2,10 @@ import json
 import os
 import re
 import time
+<<<<<<< Updated upstream
 from multiprocessing.pool import Pool
+=======
+>>>>>>> Stashed changes
 from urllib.parse import urlencode
 from hashlib import md5
 from config import *
@@ -42,8 +45,14 @@ def get_page_inner(url):
     headers = {
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36"
     }
+<<<<<<< Updated upstream
     response = requests.get(url,headers=headers, timeout=9)
+=======
+    time.sleep(1)
+    response = requests.get(url,headers=headers)
+>>>>>>> Stashed changes
     if response.status_code == 200:
+        print(response.text)
         return response.text
     else:
         response.raise_for_status()
@@ -51,6 +60,7 @@ def get_page_inner(url):
 
 def parse_page_inner(html,url):
     soup = BeautifulSoup(html,"html.parser")
+<<<<<<< Updated upstream
     title = soup.select("title")[0].get_text()
     images_gallery = re.compile(r"gallery: JSON.parse\(\"(.*?)\"\)", re.S)
     images = re.findall(images_gallery,html)
@@ -106,6 +116,18 @@ def insert_localhost_file(content, title):
     #                 w.write(content)
     #                 w.close()
 
+=======
+    # title = soup.select("title")[0].get_text()
+    # title1 = re.sub("：","",title)
+    # print(html)
+    print(html)
+    images_gallery = re.compile(r"gallery: JSON.parse\(\"(.*?)\"\),", re.S)
+    images = re.findall(images_gallery,html)
+    print(images)
+    # for i in images:
+    #     data = json.loads(i)
+    #     print(data)
+>>>>>>> Stashed changes
 
 def main(page):
     html = get_page_url(page,keyword)

@@ -24,10 +24,12 @@ class MyThread(Thread):
         except Exception:
             return "错"
 
-
-url = "https://tj.zu.ke.com"
+# 网站地址
+url = "https://sh.zu.ke.com"
+# 请求头
 herad = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
-PATH = "./host.csv"
+# 存储路径
+PATH = "./shhost.csv"
 
 def main():
     page = 100

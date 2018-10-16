@@ -17,7 +17,6 @@
     #banner{
       width: 990px;
       margin: 0 auto;
-      text-align: center;
     }
 
     #banner>img {
@@ -30,6 +29,21 @@
     }
   </style>
   <script>
+      window.onload = function () {
+          var banner = document.getElementById("banner");
+          var imageNums = banner.children;
+          console.log(imageNums);
+          var imageIndex = 0;
+          var timer;
+          timer = setInterval(autoPaly, 3000);
+          function autoPaly() {
+
+              imageNums[imageIndex].style.display = "none";
+              imageIndex = ++imageIndex === imageNums.length ? 0 : imageIndex;
+              imageNums[imageIndex].style.display = "block"
+
+          }
+      }
 
   </script>
 </head>

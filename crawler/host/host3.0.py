@@ -22,17 +22,18 @@ class MyThread(Thread):
         try:
             return self.res
         except Exception:
-            return "错"
+            return ""
 
 # 网站地址
-url = "https://sh.zu.ke.com"
+url = "https://cd.zu.ke.com"
 # 请求头
 herad = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"}
 # 存储路径
-PATH = "./shhost.csv"
+PATH = "./cdhost.csv"
+
 
 def main():
-    page = 100
+    page = 33
     pool = Pool()
 
     pool.map(get_one_html,[i for i in range(1,page+1)])
@@ -113,12 +114,8 @@ def get_two_html(inner_url):
         print("NO")
 
 
-
 if __name__ == '__main__':
     state = time.time()
     main()
     end = time.time()
     print(end-state)
-    # 关闭文件
-
-    

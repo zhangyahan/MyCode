@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    a{
+      cursor: pointer;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <a onclick="login()">&gt;&gt;&gt;&gt;</a>
+  <script>
+      function login() {
+          if (confirm("确认跳转吗")) {
+              window.location = "http://www.baidu.com"
+          } else {
+              return false;
+          }
+      }
+  </script>
+</body>
+</html>

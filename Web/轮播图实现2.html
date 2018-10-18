@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+
+    body {
+      margin: 0;
+    }
+
+    #container {
+      background: white;
+      width: 100%;
+    }
+
+    #banner{
+      width: 990px;
+      margin: 0 auto;
+    }
+
+    #banner>img {
+      width: 100%;
+      height: 207px;
+    }
+
+    #banner>img:not(:first-child) {
+      display: none;
+    }
+  </style>
+  <script>
+      window.onload = function () {
+          var banner = document.getElementById("banner");
+          var imageNums = banner.children;
+          console.log(imageNums);
+          var imageIndex = 0;
+          var timer;
+          timer = setInterval(autoPaly, 3000);
+          function autoPaly() {
+
+              imageNums[imageIndex].style.display = "none";
+              imageIndex = ++imageIndex === imageNums.length ? 0 : imageIndex;
+              imageNums[imageIndex].style.display = "block"
+
+          }
+      }
+
+  </script>
+</head>
+<body>
+  <div id="container">
+    <div id="banner">
+      <img src="./banner1.jpg" alt="">
+      <img src="./banner2.jpg" alt="">
+    </div>
+    <div id="main"></div>
+  </div>
+</body>
+</html>

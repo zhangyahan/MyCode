@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fb5017e-389b-470f-a65b-bde043598d4f" name="Default Changelist" comment="今日头条">
-      <change afterPath="$PROJECT_DIR$/Web/111.html" afterDir="false" />
+    <list default="true" id="3fb5017e-389b-470f-a65b-bde043598d4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/host/host.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/host/host3.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/host/host3.0.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +21,7 @@
     <session id="1862918906">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.27" value="1" />
@@ -55,13 +52,13 @@
         <counts>
           <entry key="html" value="1074" />
           <entry key="py" value="3895" />
-          <entry key="txt" value="14" />
+          <entry key="txt" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1074" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="PLAIN_TEXT" value="28" />
           <entry key="Python" value="3895" />
         </counts>
       </usages-collector>
@@ -107,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crawler/host/host3.0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-565">
-              <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+            <state relative-caret-position="73">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
             </state>
           </provider>
         </entry>
@@ -176,7 +173,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="71" />
     <option name="y" value="5" />
     <option name="width" value="1295" />
@@ -399,14 +396,21 @@
       <option name="project" value="LOCAL" />
       <updated>1539686172544</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="阻止跳转">
+      <created>1539776911154</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539776911154</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18333334" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18333334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -439,7 +443,8 @@
     <MESSAGE value="今日头条" />
     <MESSAGE value="轮播图" />
     <MESSAGE value="host" />
-    <option name="LAST_COMMIT_MESSAGE" value="host" />
+    <MESSAGE value="阻止跳转" />
+    <option name="LAST_COMMIT_MESSAGE" value="阻止跳转" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/7708429b21944244fc97a31966783e60..jpg" />
@@ -552,8 +557,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crawler/host/host3.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-565">
-          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+        <state relative-caret-position="73">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>

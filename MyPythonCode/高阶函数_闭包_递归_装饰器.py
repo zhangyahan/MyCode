@@ -43,24 +43,68 @@
 
 
 # 装饰器 ： 在不修改原函数及其调用方法的情况下为其扩展内容
-import time
-def login(g=""):
-    def show_time(func):
-        def inner(*args,**kwargs):
-            start = time.time()
-            res = func(*args,**kwargs)
-            end = time.time()
-            if g == "true":
-                print(end-start)
-            return res
-        return inner
-    return show_time
+# import time
+# def login(g=""):
+#     def show_time(func):
+#         def inner(*args,**kwargs):
+#             start = time.time()
+#             res = func(*args,**kwargs)
+#             end = time.time()
+#             if g == "true":
+#                 print(end-start)
+#             return res
+#         return inner
+#     return show_time
+#
+# @login(g='true')
+# def foo(*args,**kwargs):
+#     time.sleep(2)
+#     print(args)
+#     print(kwargs)
+#     return [i for i in args],[kwargs[i] for i in kwargs]
+#
+# print(foo(10,20,name="张三",age=19))
 
-@login()
-def foo(*args,**kwargs):
-    time.sleep(2)
-    print(args)
-    print(kwargs)
-    return [i for i in args],[kwargs[i] for i in kwargs]
 
-print(foo(10,20,name="张三",age=19))
+# def show_time(func):
+#     def inner(*args, **kwargs):
+#         import time
+#         start = time.time()
+#         res = func(*args, **kwargs)
+#         end = time.time()
+#         print(end-start)
+#         return res
+#     return inner
+#
+#
+# @show_time
+# def foo(*args, **kwargs):
+#     import time
+#     time.sleep(3)
+#     print(args)
+#     print(kwargs)
+#
+#
+# foo(1, 2, 3, name='张三', age=18)
+
+
+def quanxian(fn):
+
+    def inner(name, money):
+        username = input('账号')
+        password = int(input('密码'))
+        if username == 'root' and password == 123456:
+            s = fn(name, money)
+            return s
+        else:
+            print('账号或密码错误')
+    return inner
+
+@quanxian
+def insert(name, money):
+    print(name, "存钱", money, '元')
+
+
+insert('老王', 1000)
+
+type(insert)

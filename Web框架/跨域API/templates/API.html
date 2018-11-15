@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="../static/js/jquery-1.11.3.js"></script>
+  <script>
+    $(function () {
+        $(".btn").click(function () {
+            $.ajax({
+                url: "http://www.weather.com.cn/data/sk/101010100.html",
+                type: "get",
+                dataType: "jsonp",
+                "jsonp": "",
+                success: function (data) {
+                    //var str = "<h3>" + data.name + "</h3>";
+                    //str += "<h3>" + data.age + "</h3>";
+                    //$("#con").html(str);
+                    console.log(data)
+                }
+            })
+        })
+    })
+  </script>
+</head>
+<body>
+  <button class="btn">查询</button>
+  <div id="con"></div>
+  {% for paema in paemas.weather.values() %}
+    <p>{{ paema }}</p>
+  {% endfor %}
+
+
+</body>
+</html>

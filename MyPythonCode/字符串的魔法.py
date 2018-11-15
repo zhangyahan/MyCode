@@ -77,11 +77,107 @@
 # v = test.isalnum()
 # print(v)
 
+# 判断字符串中是否只包含字母和汉字, 返回bool值
+# test = 'uasf890'
+# v = test.isalpha()
+# print(v)
+
 # 按参数进行分割字符串, 分割的字符串不够参数, 就以空格补全
 # s = 'username\temail\tpassword\nzyh\tzyahan1997@163.com\t123456\n'
 # v = s.expandtabs(30)
 # print(v)
 # username                      email                         password
 # zyh                           zyahan1997@163.com            123456
+
+# 判断当前字符串是否为数字, 2更强大
+# test = '二'
+# v1 = test.isdecimal()  # 1, 十进制小数
+# v2 = test.isdigit()  # 2, 特殊符号
+# v3 = test.isnumeric()  # 3, 支持中文,包含上面两个功能
+# print(v1, v2, v3)
+
+# 大小写转换, 字符串是大写时转小写, 字符串是小写时转大写
+# test = 'alex'
+# v = test.swapcase()
+# print(v)  # ALEX
+
+# 字母, 数字, 下划线: 标识符 def class
+# 查看字符串是否符合标识符
+# a = '_123'
+# v = a.isidentifier()
+# print(v)
+
+# 判断是否存在不可显示的字符, 返回bool值
+# test = 'odo\nas'
+# v = test.isprintable()
+# print(v)
+
+# 判断是否全部都是空格, 返回bool值
+# test = 'hello world'
+# v = test.isspace()
+# print(v)
+
+# 判断是不是标题, 所有单词的首字母都是大写的为标题
+# test = 'Hello World'
+# v = test.istitle()
+# print(v)
+# # 转换为标题
+# v = test.title()
+# print(v)
+# v = v.istitle()
+# print(v)
+
+# *****将字符串中的每一个元素按照指定的符号进行拼接
+# test = '你是风儿我是沙'
+# v = ' '.join(test)
+# print(v)
+
+# 1将字符串以左对齐的方式,右侧空格补齐
+# 2将字符串以右对齐的方式,左侧空格补齐
+# test = 'hello world'
+# v = test.ljust(20)  # 1
+# print(v)
+# v = test.rjust(20)  # 2
+# print(v)
+
+# 判断是否为大小写和转换成大小写
+# test = 'Alex'
+# v = test.islower()
+# print(v)
+# v2 = test.lower()
+# print(v2)
+# v1 = test.isupper()
+# v2 = test.upper()
+# print(v1, v2)
+
+# 包括\n, \t
+# test = 'whh'
+# test.lstrip()  # 去除左边空白
+# test.rstrip()  # 去除右边空白
+# test.strip()  # 去除两边空白
+
+# test = 'wwhh'
+# v = test.lstrip('w')  # 移除指定的字符, 贪婪匹配
+# print(v)
+
+# test = '你是风儿我是沙'
+# test1 = '去你吗的风和沙'
+# v = '你是风儿我是沙, 缠缠绵绵去你家'
+# m = str.maketrans(test, test1)
+# new_v = v.translate(m)
+# print(new_v)  # 去和吗的风和沙, 缠缠绵绵去去家
+
+# 分割字符串
+# test = 'test, test, test, test'
+# v = test.partition('s')  # ('te', 's', 't, test, test, test')
+# v = test.rpartition('s')  # ('test, test, test, te', 's', 't')
+# v = test.split('s', maxsplit=1)  # ['te', 't, test, test, test']
+# print(v)
+
+# 只能根据换行进行分割, 当参数是True或False, 代表是否保留换行
+# test = 'sasddasda\ndsdasds\n'
+# v = test.splitlines(True)
+# print(v)  # ['sasddasda\n', 'dsdasds\n']
+
 
 

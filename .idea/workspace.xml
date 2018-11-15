@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c5f343fb-f780-453e-8b00-4b658b5fc36e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Web/中国气象局API.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Web框架/跨域API/.idea/vcs.xml" afterDir="false" />
@@ -8,6 +9,11 @@
       <change afterPath="$PROJECT_DIR$/crawler/spider/begin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/MyCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyCode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+=======
+    <list default="true" id="3fb5017e-389b-470f-a65b-bde043598d4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Web/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/高德API.html" afterDir="false" />
+>>>>>>> test
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,6 +23,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/MyCode$manage.coverage" NAME="manage Coverage Results" MODIFIED="1539621048170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web框架/flaskDemo03" />
     <SUITE FILE_PATH="coverage/MyCode$bgein.coverage" NAME="bgein Coverage Results" MODIFIED="1540910302106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawler/QiuShiSpider" />
     <SUITE FILE_PATH="coverage/MyCode$begin.coverage" NAME="begin Coverage Results" MODIFIED="1540913636166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawler/spider" />
@@ -57,11 +64,21 @@
       </path>
     </expand>
     <select />
+=======
+    <SUITE FILE_PATH="coverage/MyCode$host3_0.coverage" NAME="host3.0 Coverage Results" MODIFIED="1539737333486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawler/host" />
+    <SUITE FILE_PATH="coverage/MyCode$Run.coverage" NAME="Run Coverage Results" MODIFIED="1537973865530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web框架/flaskDemo2" />
+    <SUITE FILE_PATH="coverage/MyCode$TCPClient.coverage" NAME="TCPClient Coverage Results" MODIFIED="1540947343055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyPythonCode" />
+    <SUITE FILE_PATH="coverage/MyCode$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1539257278914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawler" />
+    <SUITE FILE_PATH="coverage/MyCode$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1539692851441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../数据结构与算法" />
+    <SUITE FILE_PATH="coverage/MyCode$todayphoto.coverage" NAME="todayphoto Coverage Results" MODIFIED="1539261022818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawler/toDayphoto" />
+    <SUITE FILE_PATH="coverage/MyCode$TCPServer.coverage" NAME="TCPServer Coverage Results" MODIFIED="1540947340417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyPythonCode" />
+>>>>>>> test
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1107033552">
+    <session id="1862918906">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
           <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.25" value="1" />
@@ -71,26 +88,79 @@
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.72" value="1" />
           <entry key="project.opened" value="8" />
+=======
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="9" />
+          <entry key="day10" value="1" />
+          <entry key="html" value="4" />
+          <entry key="jpg" value="53" />
+          <entry key="py" value="23" />
+          <entry key="text" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="4" />
+          <entry key="Image" value="53" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Python" value="23" />
+>>>>>>> test
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="dummy" value="11" />
           <entry key="html" value="544" />
           <entry key="py" value="1218" />
           <entry key="txt" value="14" />
           <entry key="晨讲" value="3997" />
+=======
+          <entry key="html" value="1074" />
+          <entry key="py" value="4409" />
+          <entry key="txt" value="31" />
+>>>>>>> test
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="HTML" value="544" />
           <entry key="PLAIN_TEXT" value="4022" />
           <entry key="Python" value="1218" />
+=======
+          <entry key="HTML" value="1074" />
+          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="Python" value="4409" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+    <session id="1107033552">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="3" />
+>>>>>>> test
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
           <entry key="course" value="1" />
           <entry key="html" value="5" />
           <entry key="jpg" value="1" />
@@ -98,47 +168,94 @@
           <entry key="sql" value="1" />
           <entry key="users" value="4" />
           <entry key="晨讲" value="2" />
+=======
+          <entry key="iml" value="1" />
+          <entry key="py" value="3" />
+>>>>>>> test
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="Database Element" value="5" />
           <entry key="HTML" value="5" />
           <entry key="Image" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="17" />
           <entry key="Scratch" value="1" />
+=======
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="31" />
+>>>>>>> test
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/crawler/spider/spider/spiders/qiushi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+=======
+        <entry file="file://$PROJECT_DIR$/crawler/host/host3.0.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+>>>>>>> test
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/crawler/spider/spider/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="173">
               <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+=======
+        <entry file="file://$PROJECT_DIR$/MyPythonCode/TCPServer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyPythonCode/TCPClient.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+>>>>>>> test
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/crawler/spider/begin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
               <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+=======
+        <entry file="file://$PROJECT_DIR$/Web/111.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+>>>>>>> test
             </state>
           </provider>
         </entry>
@@ -153,15 +270,26 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get_pho</find>
+      <find>timeout=1</find>
+      <find>整租 · 仁爱校区 凌奥花园精装两室带阁楼 居家陪读的理想选择,南开体育中心街凌奥花园,</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>timeout=9</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="5bae1297-5e11-44ae-b8d1-2333aade84b4" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/crawler/toDayphoto/todayphoto.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Web框架/flaskDemo03/app/main/__init__.py" />
         <option value="$PROJECT_DIR$/Web框架/flaskDemo03/__init__.py" />
         <option value="$PROJECT_DIR$/Web框架/flaskDemo03/app/__init__.py" />
@@ -177,6 +305,20 @@
         <option value="$PROJECT_DIR$/crawler/spider/spider/spiders/qiushi.py" />
         <option value="$PROJECT_DIR$/crawler/spider/begin.py" />
         <option value="$PROJECT_DIR$/crawler/spider/spider/settings.py" />
+=======
+        <option value="$PROJECT_DIR$/Web框架/flaskDemo2/Run.py" />
+        <option value="$PROJECT_DIR$/crawler/toDayphoto/__init__.py" />
+        <option value="$PROJECT_DIR$/crawler/demo1.py" />
+        <option value="$PROJECT_DIR$/crawler/toDayphoto/config.py" />
+        <option value="$PROJECT_DIR$/crawler/toDayphoto/todayphoto.py" />
+        <option value="$PROJECT_DIR$/Web/DOMDemo.html" />
+        <option value="$PROJECT_DIR$/Web/轮播图实现2.html" />
+        <option value="$PROJECT_DIR$/../../数据结构与算法/demo2.py" />
+        <option value="$PROJECT_DIR$/crawler/host/host3.0.py" />
+        <option value="$PROJECT_DIR$/Web/111.html" />
+        <option value="$PROJECT_DIR$/MyPythonCode/TCPClient.py" />
+        <option value="$PROJECT_DIR$/MyPythonCode/TCPServer.py" />
+>>>>>>> test
       </list>
     </option>
   </component>
@@ -186,11 +328,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="240" />
     <option name="y" value="24" />
     <option name="width" value="796" />
     <option name="height" value="691" />
+=======
+  <component name="ProjectFrameBounds">
+    <option name="x" value="403" />
+    <option name="y" value="102" />
+    <option name="width" value="1295" />
+    <option name="height" value="770" />
+>>>>>>> test
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -207,6 +357,7 @@
             <path>
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="crawler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -229,6 +380,9 @@
               <item name="spider" type="462c0819:PsiDirectoryNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="MyPythonCode" type="462c0819:PsiDirectoryNode" />
+>>>>>>> test
             </path>
           </expand>
           <select />
@@ -238,19 +392,25 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/crawler/QiuShiSpider/QiuShiSpider/spiders" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+>>>>>>> test
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Web框架/flaskDemo03/app" />
+      <recent name="C:\Users\tjajia\Desktop\Python\MyCode\crawler\toDayphoto" />
+      <recent name="$PROJECT_DIR$/Web框架/flaskDemo1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -265,21 +425,79 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.begin">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
+=======
+  <component name="RunManager" selected="Python.TCPClient">
+    <configuration name="TCPClient" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> test
       <module name="MyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
+<<<<<<< HEAD
       <option name="SDK_HOME" value="/usr/bin/python3.5" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawler/QiuShiSpider/QiuShiSpider/spiders" />
+=======
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyPythonCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyPythonCode/TCPClient.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TCPServer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyPythonCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyPythonCode/TCPServer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../数据结构与算法" />
+>>>>>>> test
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler/QiuShiSpider/QiuShiSpider/spiders/qiushiSpider.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../数据结构与算法/demo2.py" />
+>>>>>>> test
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,7 +506,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="begin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="host3.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> test
       <module name="MyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,12 +518,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawler/spider" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawler/host" />
+>>>>>>> test
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler/spider/begin.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler/host/host3.0.py" />
+>>>>>>> test
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,7 +540,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="bgein" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="todayphoto" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> test
       <module name="MyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,12 +552,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawler/QiuShiSpider" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawler/toDayphoto" />
+>>>>>>> test
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler/QiuShiSpider/bgein.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler/toDayphoto/todayphoto.py" />
+>>>>>>> test
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,6 +575,7 @@
       <method v="2" />
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.bgein" />
       <item itemvalue="Python.begin" />
@@ -341,6 +584,21 @@
       <list>
         <item itemvalue="Python.begin" />
         <item itemvalue="Python.bgein" />
+=======
+      <item itemvalue="Python.todayphoto" />
+      <item itemvalue="Python.host3.0" />
+      <item itemvalue="Python.demo2" />
+      <item itemvalue="Python.TCPServer" />
+      <item itemvalue="Python.TCPClient" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.TCPClient" />
+        <item itemvalue="Python.TCPServer" />
+        <item itemvalue="Python.host3.0" />
+        <item itemvalue="Python.demo2" />
+        <item itemvalue="Python.todayphoto" />
+>>>>>>> test
       </list>
     </recent_temporary>
   </component>
@@ -349,35 +607,81 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c5f343fb-f780-453e-8b00-4b658b5fc36e" name="Default Changelist" comment="" />
-      <created>1539616310150</created>
+      <changelist id="3fb5017e-389b-470f-a65b-bde043598d4f" name="Default Changelist" comment="" />
+      <created>1537415261662</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1539616310150</updated>
+      <updated>1537415261662</updated>
     </task>
-    <task id="LOCAL-00001" summary="flask">
-      <created>1539621418477</created>
+    <task id="LOCAL-00001" summary="今日头条">
+      <created>1539177530717</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1539621418477</updated>
+      <updated>1539177530717</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="今日头条">
+      <created>1539261122933</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539261122933</updated>
+    </task>
+    <task id="LOCAL-00003" summary="轮播图">
+      <created>1539651878985</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539651878985</updated>
+    </task>
+    <task id="LOCAL-00004" summary="host">
+      <created>1539686172544</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539686172544</updated>
+    </task>
+    <task id="LOCAL-00005" summary="阻止跳转">
+      <created>1539776911154</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539776911154</updated>
+    </task>
+    <task id="LOCAL-00006" summary="TCP">
+      <created>1540947608245</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1540947608245</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="0" y="-6" width="1366" height="729" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25475842" />
+=======
+    <frame x="75" y="3" width="1295" height="770" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18295543" />
+>>>>>>> test
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.4192" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49804536" weight="0.15525115" />
+>>>>>>> test
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.3290735" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
@@ -385,36 +689,20 @@
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3664" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.3270869" />
       <window_info anchor="bottom" id="Python Console" order="13" />
+=======
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5019547" side_tool="true" visible="true" weight="0.4216134" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+>>>>>>> test
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.2306003" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14128843" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.3290735" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Console" order="5" weight="0.3290735" />
-      <window_info anchor="bottom" id="Python Console" order="6" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.35623002" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.1749634" />
-      <window_info anchor="right" id="SciView" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -423,94 +711,141 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="flask" />
-    <option name="LAST_COMMIT_MESSAGE" value="flask" />
+    <MESSAGE value="今日头条" />
+    <MESSAGE value="轮播图" />
+    <MESSAGE value="host" />
+    <MESSAGE value="阻止跳转" />
+    <MESSAGE value="TCP" />
+    <option name="LAST_COMMIT_MESSAGE" value="TCP" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d4355c6f-c7ae-4ae2-8408-5e351cda198d/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web框架/flaskDemo03/__init__.py" />
-    <entry file="das://d4355c6f-c7ae-4ae2-8408-5e351cda198d/schema/flask/table/course">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web框架/flaskDemo03/app/__init__.py">
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/b0c4c92f05a6ede78eccf28bb67e0bca..jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/bc596834830f2446fa2777c75c3c3af1..jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/c6ab97a8b5dc1d1050d2819a780436dd..jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/d288e83baf31c3e061fb2bbe9bbf0379..jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/ed2514446f4f0726a7f4a7ccc56735f1..jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/ee299ff0d59421c9e5fe2c898f02b78e..jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/图虫街拍摄影9月街拍90c16a0198605d17624d6962d6c4c0ee.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/但愿所有的努力都不会白费，但愿纷扰过后能梦想成真60b89d3e5921f57fce221df470ac81d5.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/但愿所有的努力都不会白费，但愿纷扰过后能梦想成真0e9e59be62838ead4ba920599bf405f7.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/photo/1.text" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/刘雯葡萄牙街头随行街拍 率性洒脱，是我喜欢的女人没错了/37b836cc9b46cd4ee7cb7a86ff747d6a.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/刘雯葡萄牙街头随行街拍 率性洒脱，是我喜欢的女人没错了/a6ab887ff3ae310c60ac98be2ea5c2a2.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/刘雯葡萄牙街头随行街拍 率性洒脱，是我喜欢的女人没错了/a0829ec63a7aa8714c7226251a5f7ae9.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/刘雯葡萄牙街头随行街拍 率性洒脱，是我喜欢的女人没错了/d0f8506f12592fabf0fafd4d22aee4a5.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/刘雯葡萄牙街头随行街拍 率性洒脱，是我喜欢的女人没错了/d42f975391c0ccf64d7fc2963d11b7f4.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/刘雯葡萄牙街头随行街拍 率性洒脱，是我喜欢的女人没错了/7ae1dcfc887012555899ed003a0c7ee2.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/刘雯葡萄牙街头随行街拍 率性洒脱，是我喜欢的女人没错了/5f4cc98f92225818111040cc69d0493d.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/“大本”本·阿弗莱克最新洛杉矶街拍/0b5c8406f222a97b26859e42a1343eed.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/7.28 陈数北京机场街拍/84aa852a21d32f6fbdb76245901c35ff.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/7.28 陈数北京机场街拍/447cea05287da295168acc67bf26d44d.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/7.28 陈数北京机场街拍/464bcc3d3c8a3020ab8eccf2b41f1424.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/7.28 陈数北京机场街拍/4941a44372d5453c5ee16c58ce6bd2d5.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/7.28 陈数北京机场街拍/703c658d6004f9c2d9506c9793d1e073.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/7.28 陈数北京机场街拍/58f4cb678b4f4f022811ad2465d5ba5b.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/7.29 刘雯北京机场街拍/3d5105f6359c1f152cd53474b3e6772e.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/29岁的维多利亚的秘密超模Candice Swanepoe街拍/1bef31f11a22b33dab33a7145274db4f.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/29岁的维多利亚的秘密超模Candice Swanepoe街拍/19eadd5f64e0ce5fb3ad3dcf83aa9710.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/29岁的维多利亚的秘密超模Candice Swanepoe街拍/2853c011d6081cfe48c9c39e1dc5075f.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/与其担心未来，不如现在好好努力/2a6e66e63dd31228545372941861d13a.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/刘雯葡萄牙街头随行街拍 率性洒脱，是我喜欢的女人没错了/5f1a90299f14587dc1600c1543a37b1f.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/图虫街拍摄影《街拍》/2dbe0ec6ad79b7c747e6a063ffbe1326.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/图虫街拍摄影《街拍》/0b179c2d160bf2703b3a4bc347d16439.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/图虫街拍摄影校园街拍/69ec73b32389ea3fe919c484ccdcf598.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/todayphoto.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="315">
+          <caret line="127" column="27" selection-start-line="127" selection-start-column="27" selection-end-line="127" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web框架/flaskDemo03/app/main/__init__.py">
+    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="22">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="das://d4355c6f-c7ae-4ae2-8408-5e351cda198d/schema/flask/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web框架/flaskDemo03/app/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/crawler/demo1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web框架/flaskDemo03/app/main/views.py">
+    <entry file="file://$PROJECT_DIR$/Web/DOMDemo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="249">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web框架/flaskDemo03/app/models.py">
+    <entry file="file://$PROJECT_DIR$/Web/轮播图实现.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/轮播图实现2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/host/host.csv" />
+    <entry file="file://$PROJECT_DIR$/crawler/host/tjhost.csv" />
+    <entry file="file://$PROJECT_DIR$/crawler/host/shhost.csv" />
+    <entry file="file://$PROJECT_DIR$/crawler/host/cdhost.csv" />
+    <entry file="file://$PROJECT_DIR$/crawler/host/bjhost.csv" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385">
+          <caret line="852" column="8" selection-start-line="852" selection-start-column="8" selection-end-line="852" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../数据结构与算法/demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/host/host3.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/111.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyPythonCode/TCPClient.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web框架/flaskDemo03/manage.py">
+    <entry file="file://$PROJECT_DIR$/../PythonNet/PythonNet/day08/day8/Tftp/tftp_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyPythonCode/Multiprocesseing多进程.py">
+    <entry file="file://$PROJECT_DIR$/MyPythonCode/TCPServer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/demo.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/banner1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyPythonCode/stdentClass/menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/桌面/晨讲">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="229" column="18" selection-start-line="229" selection-start-column="18" selection-end-line="229" selection-end-column="18" />
+        <state relative-caret-position="286">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
         </state>
       </provider>
     </entry>

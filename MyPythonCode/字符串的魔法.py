@@ -77,11 +77,14 @@
 # v = test.isalnum()
 # print(v)
 
+<<<<<<< HEAD
 # 判断字符串中是否只包含字母和汉字, 返回bool值
 # test = 'uasf890'
 # v = test.isalpha()
 # print(v)
 
+=======
+>>>>>>> test
 # 按参数进行分割字符串, 分割的字符串不够参数, 就以空格补全
 # s = 'username\temail\tpassword\nzyh\tzyahan1997@163.com\t123456\n'
 # v = s.expandtabs(30)
@@ -89,6 +92,7 @@
 # username                      email                         password
 # zyh                           zyahan1997@163.com            123456
 
+<<<<<<< HEAD
 # 判断当前字符串是否为数字, 2更强大
 # test = '二'
 # v1 = test.isdecimal()  # 1, 十进制小数
@@ -180,4 +184,6 @@
 # print(v)  # ['sasddasda\n', 'dsdasds\n']
 
 
+=======
+>>>>>>> test
 

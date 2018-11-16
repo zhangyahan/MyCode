@@ -1,3 +1,6 @@
+# -*- coding:utf-8 -*-
+
+
 # 将首字母转换为大写
 # test = 'whh, alex, wpq, lhf, zyh, 666'
 # v = test.capitalize()
@@ -179,5 +182,19 @@
 # v = test.splitlines(True)
 # print(v)  # ['sasddasda\n', 'dsdasds\n']
 
+# 最长公共子序列
+
+# 6个基本魔法
+# join split find strip upper lower
+
+# ############灰魔法#################
+
+# test = "alex"
+# v = test[2]
+# print(v)  # 索引下标，获取字符串中的某个字符。e
+
+test = "alex"
+v = test[0:1]  # 大于等于0小于1
+print(v)  # 切片
 
 

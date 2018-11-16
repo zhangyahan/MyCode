@@ -25,13 +25,14 @@
     <session id="1862918906">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -40,7 +41,7 @@
           <entry key="day10" value="1" />
           <entry key="html" value="4" />
           <entry key="jpg" value="53" />
-          <entry key="py" value="25" />
+          <entry key="py" value="26" />
           <entry key="text" value="1" />
         </counts>
       </usages-collector>
@@ -49,7 +50,7 @@
           <entry key="HTML" value="4" />
           <entry key="Image" value="53" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="25" />
+          <entry key="Python" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -105,11 +106,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyPythonCode/字符串的魔法.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="185" column="28" selection-start-line="185" selection-start-column="28" selection-end-line="185" selection-end-column="28" />
+            <state relative-caret-position="265">
+              <caret line="197" column="14" selection-start-line="197" selection-start-column="14" selection-end-line="197" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyPythonCode/字典的方法.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyPythonCode/字典的方法 (2).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="1" column="456" lean-forward="true" selection-start-line="1" selection-start-column="456" selection-end-line="1" selection-end-column="456" />
             </state>
           </provider>
         </entry>
@@ -129,6 +144,7 @@
       <find>get_pho</find>
       <find>timeout=1</find>
       <find>整租 · 仁爱校区 凌奥花园精装两室带阁楼 居家陪读的理想选择,南开体育中心街凌奥花园,</find>
+      <find>startswith</find>
     </findStrings>
     <replaceStrings>
       <replace>timeout=9</replace>
@@ -157,6 +173,7 @@
         <option value="$PROJECT_DIR$/MyPythonCode/TCPServer.py" />
         <option value="$PROJECT_DIR$/MyPythonCode/整型数的魔法.py" />
         <option value="$PROJECT_DIR$/MyPythonCode/字符串的魔法.py" />
+        <option value="$PROJECT_DIR$/MyPythonCode/字典的方法.py" />
       </list>
     </option>
   </component>
@@ -167,8 +184,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="334" />
-    <option name="y" value="80" />
+    <option name="x" value="513" />
+    <option name="y" value="172" />
     <option name="width" value="1295" />
     <option name="height" value="756" />
   </component>
@@ -222,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.字符串的魔法">
+  <component name="RunManager" selected="Python.host3.0">
     <configuration name="整型数的魔法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,28 +254,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyPythonCode/整型数的魔法.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="字符串的魔法" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyPythonCode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyPythonCode/字符串的魔法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -311,6 +306,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="字符串的魔法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyPythonCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyPythonCode/字符串的魔法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="host3.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -338,11 +355,9 @@
       <item itemvalue="Python.TCPServer" />
       <item itemvalue="Python.TCPClient" />
       <item itemvalue="Python.整型数的魔法" />
-      <item itemvalue="Python.字符串的魔法" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.字符串的魔法" />
         <item itemvalue="Python.整型数的魔法" />
         <item itemvalue="Python.TCPClient" />
         <item itemvalue="Python.TCPServer" />
@@ -424,19 +439,32 @@
       <option name="project" value="LOCAL" />
       <updated>1542282398106</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="基础">
+      <created>1542285956497</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1542285956497</updated>
+    </task>
+    <task id="LOCAL-00011" summary="基础">
+      <created>1542286059994</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1542286059994</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1348" y="51" width="1295" height="756" extended-state="0" />
-    <editor active="true" />
+    <frame x="353" y="93" width="1295" height="756" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1854251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24939272" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49804536" visible="true" weight="0.27813506" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49716598" weight="0.27813506" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -444,7 +472,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5019547" side_tool="true" weight="0.42072213" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.502834" side_tool="true" weight="0.4189406" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -470,8 +498,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="基础" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/c6ab97a8b5dc1d1050d2819a780436dd..jpg" />
-    <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/d288e83baf31c3e061fb2bbe9bbf0379..jpg" />
     <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/ed2514446f4f0726a7f4a7ccc56735f1..jpg" />
     <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/ee299ff0d59421c9e5fe2c898f02b78e..jpg" />
     <entry file="file://$PROJECT_DIR$/crawler/toDayphoto/photo/图虫街拍摄影9月街拍90c16a0198605d17624d6962d6c4c0ee.jpg" />
@@ -553,13 +579,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../数据结构与算法/demo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../数据结构与算法/demo2.py" />
     <entry file="file://$PROJECT_DIR$/../PythonNet/PythonNet/day08/day8/Tftp/tftp_server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -604,8 +624,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyPythonCode/字符串的魔法.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="185" column="28" selection-start-line="185" selection-start-column="28" selection-end-line="185" selection-end-column="28" />
+        <state relative-caret-position="265">
+          <caret line="197" column="14" selection-start-line="197" selection-start-column="14" selection-end-line="197" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyPythonCode/字典的方法.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyPythonCode/字典的方法 (2).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="1" column="456" lean-forward="true" selection-start-line="1" selection-start-column="456" selection-end-line="1" selection-end-column="456" />
         </state>
       </provider>
     </entry>

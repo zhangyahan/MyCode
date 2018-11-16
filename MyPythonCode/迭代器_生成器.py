@@ -18,12 +18,13 @@
 # for i in func(9):
 #     print(i)
 # 生成器表达式
-it = iter(i*2 for i in range(10) if i % 2 !=0)
-while True:
-    try:
-        print(next(it))
-    except StopIteration:
-        break
+# it = iter(i*2 for i in range(10) if i % 2 !=0)
+# while True:
+#     try:
+#         print(next(it))
+#     except StopIteration:
+#         break
+#
+# print("hello")
+# print("hello")
 
-print("hello")
-print("hello")

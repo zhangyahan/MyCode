@@ -51,8 +51,8 @@
 # # (11, 2)
 # # (12, 3)
 # # (13, 4)
-#
 # print(dir(s))
+
 
 # nums = [2, 7, 11, 15, 1, 8, 7]
 # # 找到列表中两个元素相加等于9的元素
@@ -60,4 +60,33 @@
 #     for y in range(nums.index(i), len(nums)):
 #         if i + nums[y] == 9:
 #             print(i, nums[y])
+
+
+# 根据范围获取其中3和7整除的所有数的和,
+# 并返回调用者,符合条件的数字个数以及符合条件的数字的足总和
+# def func(start, end):
+#     count = 0
+#     num_sum = 0
+#     num = []
+#     for i in range(start, end+1):
+#         if i % 3 == 0 and i % 7 == 0:
+#             count += 1
+#             num_sum += i
+#             num.append(i)
+#     return (count, num_sum, num,)
+# 
+# print(func(1, 100))
+
+
+# 使用set集合获取两个列表lst1=[11, 22, 33]
+# lst2 = [22, 33, 44]中相同的元素集合
+# lst1 = [11, 22, 33]
+# lst2 = [22, 33, 44]
+# 
+# set1 = set(lst1)
+# set2 = set(lst2)
+# set3 = set1 & set2
+# print(set3)
+
+
 

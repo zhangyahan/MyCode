@@ -84,4 +84,5 @@
 # username                      email                         password
 # zyh                           zyahan1997@163.com            123456
 
-
+# 替换指定字符串
+# str.replace('', '')

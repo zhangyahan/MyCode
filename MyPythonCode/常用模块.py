@@ -1,11 +1,7 @@
 # 常用模块之time模块
 # import time
-
-
 # # 时间戳 计算
 # print(time.time())
-
-# 
 # # 时间对象(本地时间)
 # print(time.localtime(time.time()))
 # t = time.localtime(time.time())
@@ -33,8 +29,6 @@
 
 # 常用模块之logging模块
 # import logging
-
-
 # logging.basicConfig(
 #     level=logging.DEBUG,
 #     filename='loging.log',
@@ -44,8 +38,6 @@
 #             [%(lineno)d]  \
 #             %(message)s'
 # )
-# 
-# 
 # logging.debug('debug message')
 # logging.info('info message')
 # logging.warning('warning message')
@@ -108,13 +100,8 @@
 # # 5d41402abc4b2a76b9719d911017c592
 
 
-
-
-
-import sys, os
-
-
-print(sys.argv)  # 当前文件的绝对路径
+# os模块常用方法
+# os.getcwd(): 获取
 
 
 

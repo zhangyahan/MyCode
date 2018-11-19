@@ -111,7 +111,10 @@
 
 
 
+import sys, os
 
+
+print(sys.argv)  # 当前文件的绝对路径
 
 
 
